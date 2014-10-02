@@ -5,7 +5,7 @@ type: stretch
 ---
 
 ## Getting Down to Business with Binary
- ![binary](http://rmhighercomputing.files.wordpress.com/2011/10/binary.png?w=645)
+ ![binary](http://imgs.xkcd.com/comics/1_to_10.png)
 
 ***This is a group lab, so make sure you are working in a group of 2-4 students***
 
