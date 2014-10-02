@@ -24,10 +24,10 @@ Decimal | Binary | Explanation
 2				|	10		 | Start back at zero, add 1 to the left
 3				|	11		 | 
 4				|	100		 | Start all numbers back at zero again, add one to the left again
-5				|	101		 | 
-6				|	110		 |
-7				|	111		 |
-8				|	1000	 |
+5				|	101		 | One in the fours place, one in the ones place
+6				|	110		 | One in the fours place, one in the twos place
+7				|	111		 | One in the fours place, one in the twos place, one in the ones place
+8				|	1000	 | One in the eights place
 
 ### Your Challenge
 
