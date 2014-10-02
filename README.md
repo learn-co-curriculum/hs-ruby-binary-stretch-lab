@@ -5,7 +5,7 @@ type: stretch
 ---
 
 ## Getting Down to Business with Binary
- ![binary](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&docid=fCq6Ou3fDd8nEM&tbnid=6Sx1ztFoQcUNTM:&ved=0CAcQjRw&url=http%3A%2F%2Frmhighercomputing.wordpress.com%2F2011%2F10%2F29%2Fbinary-whait-is-it-and-why-do-computers-use-it%2F&ei=WZ0tVNf6OIOpyASy0oGIBw&bvm=bv.76477589,d.aWw&psig=AFQjCNGMpnCvhfOGZ1GQnfbqv7x4u8g7Rw&ust=1412361940697895)
+ ![binary](http://rmhighercomputing.files.wordpress.com/2011/10/binary.png?w=645)
 
 ***This is a group lab, so make sure you are working in a group of 2-4 students***
 
@@ -23,7 +23,7 @@ Decimal | Binary | Explanation
 1				|	1			 | Then 1
 2				|	10		 | Start back at zero, add 1 to the left
 3				|	11		 | 
-4				|	100		 | Start all numbers back at zero again, add one to the left again. 
+4				|	100		 | Start all numbers back at zero again, add one to the left again
 5				|	101		 | 
 6				|	110		 |
 7				|	111		 |
