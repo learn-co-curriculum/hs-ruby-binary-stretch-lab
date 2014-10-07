@@ -31,7 +31,11 @@ Decimal | Binary | Explanation
 
 ### Your Challenge
 
-Create a program that converts a decimal number to its binary equivalent. Your program should take in a decimal and output it as binary. Write your code in the `binary.rb` file. Use however many methods you need to successfully convert the following decimal numbers to binary:
++ Create a method called 'decimal_to_binary' that converts a decimal number to its binary equivalent. Your method should take in a decimal as an argument and output it as binary.
+
++ Create a method called 'binary_to_decimal' that converts a binary number to its decimal equivalent. Your program should take in a binary number and output it as a decimal.
+
+Write your code in the `binary.rb` file. Run `rspec` to see if your code passes the tests written for it. You should be able to successfully convert the following decimal numbers to binary and binary numbers to decimal:
 
 Decimal | Binary 
 ------- | ------ 	 
@@ -44,4 +48,4 @@ Decimal | Binary
 
 ### Bonus Challenge
 
-Google the `hexadecimal number system`. It works just like binary or decimal, but has a base of 16. Once you've figured out how hexadecimals work, create a program that converts a decimal number to its hexadecimal equivalent. Write your code in the `hexadecimal.rb` file.
+Google the `hexadecimal number system`. It works just like binary or decimal, but has a base of 16. Once you've figured out how hexadecimals work, create a program that converts a decimal number to its hexadecimal equivalent, and vice versa (as above). Write your code in the `hexadecimal.rb` file.
