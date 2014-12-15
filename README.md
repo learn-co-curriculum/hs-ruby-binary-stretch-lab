@@ -4,10 +4,8 @@ languages: ruby
 type: stretch
 ---
 
-## Getting Down to Business with Binary
- ![binary](http://imgs.xkcd.com/comics/1_to_10.png)
-
-***This is a group lab, so make sure you are working in a group of 2-4 students***
+###Getting Down to Business with Binary
+<img src="http://imgs.xkcd.com/comics/1_to_10.png" width="400px" align="right" hspace="10"> ***This is a group lab, so make sure you are working in a group of 2-4 students***
 
 To start this lab, let's count to ten. Ok, fine, any 3 year old could count to ten. But can you count to ten in binary? How about in hexadecimal? Not so easy...yet!
 
@@ -30,7 +28,6 @@ Decimal | Binary | Explanation
 8				|	1000	 | One in the eights place
 
 ### Your Challenge
-
 + Create a method called `decimal_to_binary` that converts a decimal number to its binary equivalent. Your method should take in a decimal as an argument and output it as binary.
 
 + Create a method called `binary_to_decimal` that converts a binary number to its decimal equivalent. Your program should take in a binary number and output it as a decimal.
@@ -47,5 +44,4 @@ Decimal | Binary
 526			|	1000001110	
 
 ### Bonus Challenge
-
 Google the `hexadecimal number system`. It works just like binary or decimal, but has a base of 16. Once you've figured out how hexadecimals work, create a program that converts a decimal number to its hexadecimal equivalent, and vice versa (as above). Write your code in the `hexadecimal.rb` file.
