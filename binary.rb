@@ -6,11 +6,6 @@ def decimal_to_binary(decimal)
 	elsif decimal <= 0
 		"This method only accepts positive integers"
 	else
-
-		if decimal == 0
-			decimal
-		end
-
 		binary_string = ""
 
 		while(decimal != 0)
@@ -23,5 +18,22 @@ def decimal_to_binary(decimal)
 end
 
 def binary_to_decimal(binary)
-	binary.to_s.to_i(2)
+
+	if binary.is_a? String
+		"This method only accepts binary"
+	else
+		# new_decimal = 0
+		binary.to_s.split(//).each do |digit|
+			 return "This method only accepts binary" unless digit.to_i == 0 || digit.to_i == 1
+
+		end
+
+		# if is_binary? == true
+		# 	binary.to_s.split(//).each do |digit|
+		# 		new_decimal = (Integer(digit) + new_decimal) * 2)
+		# 	end
+		# 	new_decimal = new_decimal / 2;
+  # 			new_decimal
+  # 		end
+    end
 end
