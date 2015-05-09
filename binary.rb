@@ -19,21 +19,21 @@ end
 
 def binary_to_decimal(binary)
 
+	new_decimal = 0
+
 	if binary.is_a? String
-		"This method only accepts binary"
-	else
-		# new_decimal = 0
-		binary.to_s.split(//).each do |digit|
-			 return "This method only accepts binary" unless digit.to_i == 0 || digit.to_i == 1
+		return "This method only accepts binary"
+	end
 
+   	binary.to_s.split(//).each do |digit|
+		unless digit.to_i == 0 || digit.to_i == 1
+			return "This method only accepts binary"
+		else
+			new_decimal = (Integer(digit) + new_decimal) * 2
+			half_number = new_decimal / 2
 		end
+		half_number
+	end
 
-		# if is_binary? == true
-		# 	binary.to_s.split(//).each do |digit|
-		# 		new_decimal = (Integer(digit) + new_decimal) * 2)
-		# 	end
-		# 	new_decimal = new_decimal / 2;
-  # 			new_decimal
-  # 		end
-    end
 end
+
