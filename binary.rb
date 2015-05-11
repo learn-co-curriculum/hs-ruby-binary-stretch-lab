@@ -1,5 +1,3 @@
-# Create a program that converts a decimal number to its binary equivalent. Write your code here.
-
 def decimal_to_binary(decimal)
 	if decimal.is_a? String
 		"This method only accepts positive integers"
@@ -20,6 +18,8 @@ end
 def binary_to_decimal(binary)
 
 	new_decimal = 0
+	binary_array = []
+	half_number = 0
 
 	if binary.is_a? String
 		return "This method only accepts binary"
@@ -29,11 +29,15 @@ def binary_to_decimal(binary)
 		unless digit.to_i == 0 || digit.to_i == 1
 			return "This method only accepts binary"
 		else
+			# new_decimal = binary.to_s.to_i(2)
 			new_decimal = (Integer(digit) + new_decimal) * 2
 			half_number = new_decimal / 2
-		end
-		half_number
-	end
+			# binary_array << half_number
 
+		end
+	end
+	half_number
 end
+
+binary_to_decimal(100)
 
