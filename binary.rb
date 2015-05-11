@@ -18,7 +18,6 @@ end
 def binary_to_decimal(binary)
 
 	new_decimal = 0
-	binary_array = []
 	half_number = 0
 
 	if binary.is_a? String
@@ -29,11 +28,8 @@ def binary_to_decimal(binary)
 		unless digit.to_i == 0 || digit.to_i == 1
 			return "This method only accepts binary"
 		else
-			# new_decimal = binary.to_s.to_i(2)
 			new_decimal = (Integer(digit) + new_decimal) * 2
 			half_number = new_decimal / 2
-			# binary_array << half_number
-
 		end
 	end
 	half_number
