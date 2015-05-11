@@ -35,5 +35,3 @@ def binary_to_decimal(binary)
 	half_number
 end
 
-binary_to_decimal(100)
-
