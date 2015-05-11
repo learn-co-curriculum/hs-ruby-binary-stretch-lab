@@ -11,4 +11,9 @@ def decimal_to_hexadecimal(decimal)
 end
 
 def hexadecimal_to_decimal(hexadecimal)
+	hexadecimal.split(//).each do |digit|
+		unless digit.to_i == 0 || digit.to_i == 1
+			return "This method only accepts hexadecimal"
+		end
+	end
 end
