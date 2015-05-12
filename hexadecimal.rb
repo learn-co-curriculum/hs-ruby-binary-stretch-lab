@@ -1,5 +1,4 @@
 def decimal_to_hexadecimal(decimal)
-	hexadecimal = ""
 	if decimal.is_a? String
 		"This method only accepts positive integers"
 	elsif decimal <= 0
@@ -11,10 +10,14 @@ def decimal_to_hexadecimal(decimal)
 end
 
 def hexadecimal_to_decimal(hexadecimal)
-	hexadecimal.to_i(16).to_s(10).to_i
-	# hexadecimal.split(//).each do |digit|
-	# 	unless digit.to_i == 0 || digit.to_i == 1
-	# 		return "This method only accepts hexadecimal"
-	# 	end
-	# end
+	decimal = 0
+
+	hexadecimal.split(//).each do |digit|
+		unless digit <= 'f' || digit =~ /\A\d+\z/
+			return "This method only accepts hexadecimal"
+		else
+			decimal = hexadecimal.to_i(16).to_s(10).to_i
+		end
+	end
+	decimal
 end
