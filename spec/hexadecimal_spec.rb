@@ -27,7 +27,7 @@ describe "#hexadecimal_to_decimal" do
     expect(hexadecimal_to_decimal('108B')).to eq(4235)
   end
 
-  it "returns an alert if given any characters that are not 1 or 0" do
+  it "returns an alert if given any characters are not from 0-9 or A-F" do
     expect(hexadecimal_to_decimal("h10")).to eq("This method only accepts hexadecimal")
   end
 
