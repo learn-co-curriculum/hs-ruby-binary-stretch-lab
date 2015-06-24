@@ -32,7 +32,7 @@ Decimal | Binary | Explanation
 
 + Create a method called `binary_to_decimal` that converts a binary number to its decimal equivalent. Your program should take in a binary number and output it as a decimal.
 
-Write your code in the `binary.rb` file. Run `rspec` to see if your code passes the tests written for it. You should be able to successfully convert the following decimal numbers to binary and binary numbers to decimal:
+Write your code in the `binary.rb` file. Run `learn` to see if your code passes the tests written for it. You should be able to successfully convert the following decimal numbers to binary and binary numbers to decimal:
 
 Decimal | Binary 
 ------- | ------ 	 
