@@ -1,8 +1,4 @@
----
-tags: methods, kids, stretch, ruby, binary
-languages: ruby
-type: stretch
----
+
 
 ###Getting Down to Business with Binary
 <img src="http://imgs.xkcd.com/comics/1_to_10.png" width="200px" align="right" hspace="10"> ***This is a group lab, so make sure you are working in a group of 2-4 students***
@@ -16,7 +12,7 @@ The number system we use is called the `decimal number system`. We say it is `ba
 Other systems use different bases. `Binary`, for example, is `base 2`. Because of this, we only have two digits we count with: 0 and 1. Let's see how that works. You count 0, 1, then you have to start over at zero and add a column! The next column is worth twice the value of the first column. Since binary is a base 2 system, each digit represents a power of 2, with the rightmost digit representing 2<sup>0</sup> (0), the next representing 2<sup>1</sup> (2), then 2<sup>2</sup> (4), 2<sup>3</sup> (8) and so on.
 
 Decimal | Binary | Explanation
-------- | ------ | -----------
+- | ------ | -----------
 0				|	0			 | Start at zero
 1				|	1			 | Then 1
 2				|	10		 | Start back at zero, add 1 to the left
@@ -35,7 +31,7 @@ Decimal | Binary | Explanation
 Write your code in the `binary.rb` file. Run `learn` to see if your code passes the tests written for it. You should be able to successfully convert the following decimal numbers to binary and binary numbers to decimal:
 
 Decimal | Binary 
-------- | ------ 	 
+- | ------ 	 
 1				|	1			
 2				|	10	
 13			|	1101		 
