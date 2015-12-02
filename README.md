@@ -41,3 +41,5 @@ Decimal | Binary
 
 ### Bonus Challenge
 Google the `hexadecimal number system`. It works just like binary or decimal, but has a base of 16. Once you've figured out how hexadecimals work, create a program that converts a decimal number to its hexadecimal equivalent, and vice versa (as above). Write your code in the `hexadecimal.rb` file.
+
+<a href='https://learn.co/lessons/hs-ruby-binary-stretch-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
